@@ -228,11 +228,28 @@
     transform: translateY(-10px);
 }
 
+.contact .info .info-icon {
+    background: #999100;
+    float: left;
+    margin-right: 1rem;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
 
+.contact .info h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
 
+.contact .info p {
+    font-size: 14px;
 
-
-
+}
 
 
 
