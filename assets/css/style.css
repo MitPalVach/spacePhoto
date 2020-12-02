@@ -153,7 +153,7 @@
     border-radius: 4px;
     width: 36px;
     height: 36px;
-    background: rgba(255,255,255,.8);
+    background: rgba(255, 255, 255, .8);
     display: inline-block;
 }
 
@@ -172,7 +172,7 @@
 }
 
 .team .member .member-info span {
-display: block;
+    display: block;
     font-size: 13px;
     font-weight: 400;
     color: #aaaaaa;
@@ -189,6 +189,65 @@ display: block;
     opacity: 1;
     bottom: 15px;
 }
+
+.services .icon-box {
+    border: 1px solid #afafaf;
+    padding: 80px 20px;
+    transition: all ease-in-out .3s;
+    background: #ffffff;
+}
+
+.services .icon-box .icon {
+    margin: auto;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    background: #999100;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    transition: .3s;
+}
+
+.services .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.services .icon-box:hover {
+    border-color: #ffffff;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, .5);
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
