@@ -121,6 +121,78 @@
     height: 107px;
 }
 
+.team {
+    padding: 60px;
+}
+
+.team .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .5);
+}
+
+.team .member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out .3s;
+}
+
+.team .member .social a {
+    color: #151515;
+    margin: 0 3px;
+    padding-top: 7px;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    background: rgba(255,255,255,.8);
+    display: inline-block;
+}
+
+.team .member .social a:hover {
+    background: #999100;
+}
+
+.team .member .member-info {
+    padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.team .member .member-info span {
+display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.team .member .member-info p {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 26px;
+    color: #777777;
+}
+
+.team .member:hover .social {
+    opacity: 1;
+    bottom: 15px;
+}
+
+
+
+
 
 
 
